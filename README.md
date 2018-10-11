@@ -22,6 +22,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 	- The visibility of the menu is toggled on and off by clicking.
 3. Initial Entries
 	- At least one entry in the feed.
+4. New Feed Selection
 	- The content changed when the new feed is loaded. 
  
 
