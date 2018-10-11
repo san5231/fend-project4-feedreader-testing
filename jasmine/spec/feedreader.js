@@ -75,8 +75,8 @@ $(function() {
          });
 
          it('complete work', function(){
-            const feed = document.querySelector('.feed');
-            expect(feed.children.length > 0).toBe(true);
+            const entry = document.querySelectorAll('.feed .entry');
+            expect(entry.length > 0).toBe(true);
          });
     });
         
