@@ -95,10 +95,7 @@ $(function() {
                 loadFeed(1, function(){
                     done();
                 });
-            });
-            
-            
-            
+            });           
             
          });
 
@@ -108,7 +105,7 @@ $(function() {
                 expect(entry.innerText === firstFeed[index]).toBe(false);
                 
             });
-            console.log(firstFeed[1]);
+
          });
     });
         
